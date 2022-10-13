@@ -13,5 +13,8 @@ body {
 
 nav {
     background-color: hsl(286, 63%, 22%);
-    position: sticky;
+}
+
+.jumbotron {
+    background-image: url('starry.jpg')
 }
