@@ -14,11 +14,11 @@ header {
 
 .jumbotron {
     background-image: url('starry.jpg');
+    opacity: 0.8;
 }
 
-.jumbotron .container {
+.jumbotron .container .row{
     color: hsl(0, 0%, 100%);
-    opacity: 0.2;
 }
 
 .container {
