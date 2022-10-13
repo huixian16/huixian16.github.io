@@ -10,30 +10,39 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
+
   <body>
-    <div class='container'>
-      <div class='nav'>
-        <h2>Hui Xian</h2>
-        <ul>
-          <li><a href='#''>About</a></li>
-          <li><a href='#''>Blogs</a></li>
-          <li><a href='#''>Resume</a></li>
-        </ul>
-        <div class="contact"><a href='#''>Contact Info</a></div>
+
+    <header class='container'>
+      <div class='row'>
+        <h2 class="col-sm-4">Hui Xian</h2>
+        <nav class="col-sm-8 text-right">
+          <p><a href='#'>About</a></p>
+          <p><a href='#'>Blogs</a></p>
+          <p><a href='#'>Resume</a></p>
+          <p><a href='#'>Contact Info</a></p>
+        </nav>
       </div>
-      <div class='main'>
-        <h1>Hi! I'm Hui Xian</h1>
-        <h3>This website is under development.</h3>
-        <p>In the meantime, I am currently learning HTML and CSS, but my passion lies in analytics i.e. Python, MySQL, MongoDB. You can view my ongoing <a href='https://github.com/huixian16'>projects</a> at GitHub.</p>
-        <figure class="profile">
-          <img src='profile.jpg' width='400' height='500'/>
-        </figure>
-        <p>I also love all kinds of music as long as they are rhythmic or catchy, plus points if the lyrics are meaningful. Here is one of my favourite latest songs:</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/POe9SOEKotk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
+    </header>
+
+    <section class='jumbotron'>
+      <div class='container'>
+        <div class='row text-center'>
+          <h1>Hi! I'm Hui Xian</h1>
+          <h3>This website is under development.</h3>
+          <p>In the meantime, I am currently learning HTML and CSS, but my passion lies in analytics i.e. Python, MySQL, MongoDB. You can view my ongoing <a href='https://github.com/huixian16'>projects</a> at GitHub.</p>
+          <figure class="profile">
+            <img src='profile.jpg' width='400' height='500'/>
+          </figure>
+          <p>I also love all kinds of music as long as they are rhythmic or catchy, plus points if the lyrics are meaningful. Here is one of my favourite latest songs:</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/POe9SOEKotk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
       </div>
-    </div>
+      </div>
+    </section>
+
   </body>
+
 </html>
