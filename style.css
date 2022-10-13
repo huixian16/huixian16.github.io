@@ -24,3 +24,8 @@ header {
 .container {
     text-align: justify;
 }
+
+footer {
+    color: hsl(0, 0%, 100%);
+    background-color: black;
+}
