@@ -11,7 +11,6 @@ body {
     border: 1rem solid hsl(213, 16%, 89%)
 }
 
-header div nav {
-    position: sticky;
-    display: inline;
+nav {
+    background-color: hsl(286, 63%, 22%);
 }
