@@ -15,15 +15,22 @@
 
   <body>
     <header class='container-fluid'>
-      <div class='row'>
-        <h2 class="col-3">Hui Xian</h2>
-        <ul class="col-9 list-inline">
-          <li class="col-2 list-inline-item"><a href='#'>About</a></li>
-          <li class="col-2 list-inline-item"><a href='#'>Blogs</a></li>
-          <li class="col-2 list-inline-item"><a href='#'>Resume</a></li>
-          <li class="col-3 list-inline-item"><a href='#'>Contact Info</a></li>
-        </ul>
-      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+          <img src="cover.png" width="30" height="30" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link disabled">Disabled</a>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <section class='jumbotron'>
