@@ -14,6 +14,9 @@ header {
 
 .jumbotron {
     background-image: url('starry.jpg');
+}
+
+.jumbotron .container {
     color: hsl(0, 0%, 100%);
     opacity: 0.2;
 }
