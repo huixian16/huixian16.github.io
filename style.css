@@ -6,8 +6,10 @@ body {
     border: 1rem solid hsl(213, 16%, 89%)
 }
 
-nav {
+header {
     background-color: hsl(286, 63%, 22%);
+    position: sticky;
+    top:0%;
 }
 
 .jumbotron {
