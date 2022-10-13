@@ -1,6 +1,14 @@
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: hsl(212, 50%, 50%);
+    color: hsl(0, 0%, 100%);
+}
+
+h3 {
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    color: hsl(0, 0%, 100%);
 }
 
 body {
@@ -17,4 +25,10 @@ nav {
 
 .jumbotron {
     background-image: url('starry.jpg')
+    background-color: hsl(0, 0%, 100%);
+    opacity: 0.2;
+}
+
+.container {
+    text-align: justify;
 }
