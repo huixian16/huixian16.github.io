@@ -29,6 +29,8 @@ header {
 footer {
     color: hsl(0, 0%, 100%);
     background-color: black;
+    padding: 1rem;
+    text-align: center;
 }
 
 footer div {
@@ -40,8 +42,8 @@ footer div p {
 }
 
 footer div img {
-    width: 6rem;
-    height: 6rem;
+    width: 4rem;
+    height: 4rem;
 }
 
 #about-link {
