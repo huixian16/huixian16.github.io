@@ -35,7 +35,7 @@ nav ul li{
 
 .mission {
     background-image: url('img-mission-background.jpg');
-    height: 700px;
+    height: 7000px;
     width: 1200px;
     display: flex;
     margin: 69px auto;
@@ -43,15 +43,20 @@ nav ul li{
 
 .mission .child {
     align-items: center;
-    height: fit-content;
+    height: 2rem;
 }
 
 .tea {
     width: 1000px;
     text-align: center;
+    display: flex
 }
 
 .tea figure {
     width: 300px;
     height: 200px;
+}
+
+footer {
+    display: flex;
 }
