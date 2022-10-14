@@ -20,16 +20,24 @@ header {
 .logo {
     margin-left: 10px;
     height: 50px;
+    width: 120px;
 }
 
-nav div {
+nav div p {
     text-decoration: underline;
+    display: inline-block;
 }
 
 .mission {
     background-image: url('img-mission-background.jpg');
     height: 700px;
     width: 1200px;
+    display: flex;
+    margin: 69px auto;
+}
+
+.mission .child {
+    align-items: center;
 }
 
 .tea {
