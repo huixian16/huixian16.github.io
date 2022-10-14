@@ -4,8 +4,7 @@
     color: seashell;
     background-color: black;
     opacity: 0.9;
-    text-align: center;
-    box-sizing: border-box;
+    text-align: center
 }
 
 header {
@@ -13,19 +12,25 @@ header {
     top: 0px;
     height: 69px;
     border-bottom: 1px solid seashell;
+    display: block;
+}
+
+nav.container {
     display: inline-flex;
     justify-content: space-between;
 }
 
-.logo {
+nav figure.child {
     margin-left: 10px;
     height: 50px;
     width: 120px;
 }
 
-nav div p {
+nav ul li{
     text-decoration: underline;
-    display: inline-block;
+    list-style: none;
+    display: inline;
+    margin: 1rem;
 }
 
 .mission {
@@ -38,6 +43,7 @@ nav div p {
 
 .mission .child {
     align-items: center;
+    height: fit-content;
 }
 
 .tea {
