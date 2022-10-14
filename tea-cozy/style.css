@@ -20,6 +20,7 @@ header {
     float: left;
     margin-left: 10px;
     height: 50px;
+    display: block;
 }
 
 nav div {
