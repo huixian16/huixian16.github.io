@@ -1,0 +1,14 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.mission {
+    background-image: url('img-mission-background.jpg');
+    height: 700px;
+    width: 1200px;
+}
