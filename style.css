@@ -3,7 +3,8 @@ body {
 }
 
 .profile {
-    border: 1rem solid hsl(213, 16%, 89%)
+    border: 1rem solid hsl(213, 16%, 89%);
+    margin: 0 auto;
 }
 
 header {
@@ -38,8 +39,17 @@ footer div p {
     font-size: 75%;
 }
 
+footer div img {
+    width: 15%;
+    margin: 0 2rem;
+}
+
 #about-link {
     color: hsl(60, 100%, 50%);
+}
+
+#about-link:hover {
+    color: hsl(39, 100%, 50%);
 }
 
 /* latin */
@@ -74,4 +84,3 @@ p {
 iframe {
     margin: 1em auto;
 }
-
