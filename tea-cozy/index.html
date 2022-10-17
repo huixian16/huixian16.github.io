@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Tea Cozy Project</title>
         <meta charset="utf-8"/>
@@ -8,83 +8,75 @@
 
     <body>
         <header>
-            <nav>
-                <figure class="logo">
+            <nav class="container">
+                <figure class="child">
                     <img src="img-tea-cozy-logo.png">
                 </figure>
-                <div>
-                    <p>Mission</p>
-                    <p>Featured Tea</p>
-                    <p>Locations</p>
-                </div>
+                <p>Mission</p>
+                <p>Featured Tea</p>
+                <p>Locations</p>
             </nav>
         </header>
 
-        <div class="mission">
+        <jumbotron class="container">
             <div class="child">
                 <h2>Our Mission</h2>
                 <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
             </div>
-        </div>
+            </jumbotron>
 
-        <div class="tea">
+        <div class="wording">
             <h2>Tea of the Month</h2>
             <h4>What's steeping at The Tea Cozy?</h4>
-
-            <div class="container">
-            <figure>
-                <img src="img-berryblitz.jpg"/>
-                <figcaption>Fall Berry Blitz Tea</figcaption>
-            </figure>
-            </div>
-
-            <div class="container">
-            <figure>
-                <img src="img-spiced-rum.jpg"/>
-                <figcaption>Spiced Rum Tea</figcaption>
-            </figure>
-            </div>
-
-            <div class="container">
-            <figure>
-                <img src="img-donut.jpg"/>
-                <figcaption>Seasonal Donuts</figcaption>
-            </figure>
-            </div>
-
-            <div class="container">
-            <figure>
-                <img src="img-myrtle-ave.jpg"/>
-                <figcaption>Myrtle Ave Tea</figcaption>
-            </figure>
-            </div>
-
-            <div class="container">
-            <figure>
-                <img src="img-bedford-bizarre.jpg"/>
-                <figcaption>Bedford Bizarre Tea</figcaption>
-            </figure>
-            </div>
         </div>
 
-        <div>
-            <h2>Locations</h2>
+        <div class="container tea">
+            <figure>
+                <img src="img-berryblitz.jpg"/>
+                <figcaption><h4>Fall Berry Blitz Tea</h4></figcaption>
+            </figure>
 
-            <div class="container">
+            <figure>
+                <img src="img-spiced-rum.jpg"/>
+                <figcaption><h4>Spiced Rum Tea</h4></figcaption>
+            </figure>
+
+            <figure>
+                <img src="img-donut.jpg"/>
+                <figcaption><h4>Seasonal Donuts</h4></figcaption>
+            </figure>
+
+            <figure>
+                <img src="img-myrtle-ave.jpg"/>
+                <figcaption><h4>>Myrtle Ave Tea</h4></figcaption>
+            </figure>
+
+            <figure>
+                <img src="img-bedford-bizarre.jpg"/>
+                <figcaption><h4>Bedford Bizarre Tea</h4></figcaption>
+            </figure>
+        </div>
+
+        <div class="container location">
+            <div class="heading">
+                <h2>Locations</h2>
+            </div>
+
+            <div class="child">
                 <h3>Downtown</h3>
                 <p>384 West 4th St</p>
                 <p>Suite 108</p>
                 <p>Portland, Maine</p>
             </div>
 
-            <div class="container">
+            <div class="child">
                 <h3>East Bayside</h3>
                 <p>3433 Phisherman's Avenue</p>
                 <p>(Northwest Corner)</p>
                 <p>Portland, Maine</p>
             </div>
 
-            <div class="container">
+            <div class="child">
                 <h3>Oakdale</h3>
                 <p>515 Crescent Avenue</p>
                 <p>Second Floor</p>
@@ -97,6 +89,6 @@
         <h2>The Tea Cozy</h2>
         <h5>contact@theteacozy.com</h5>
         <h5>917-555-8904</h5>
-        <h5>copyright The Tea Cozy 2017</h5>
+        <h5 id="copyright">copyright The Tea Cozy 2017</h5>
     </footer>
 </html>
