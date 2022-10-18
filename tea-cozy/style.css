@@ -1,10 +1,10 @@
-* {
+html {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
-    text-align: center
+    text-align: center;
 }
 
 .container {
@@ -17,27 +17,29 @@ header {
     height: 69px;
     border-bottom: 1px solid seashell;
     width: 100%;
+    background-color: black;
 }
 
-nav.container {
+nav {
     justify-content: space-between;
 }
 
-nav figure {
-    margin-left: 10px;
+nav img {
+    margin: auto 10px;
     height: 50px;
-    width: 80px;
+    width: 150px;
 }
 
-nav ul {
+nav ul li {
     text-decoration: underline;
     list-style: none;
-    width: fit-content;
+    display: inline;
+    margin: 0 1rem;
 }
 
 jumbotron {
     background-image: url('img-mission-background.jpg');
-    height: 7000px;
+    height: 700px;
     width: 1200px;
     margin: 69px auto;
     justify-content: center;
@@ -46,32 +48,42 @@ jumbotron {
 
 jumbotron .child {
     text-align: center;
+    width: 100%;
+    background-color: black;
 }
 
 .wording {
     width: 1000px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .tea {
     width: 1000px;
     text-align: center;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem auto;
 }
 
-.tea figure {
+.tea div img {
     width: 300px;
     height: 200px;
+}
+
+.tea div h4 {
+    margin-top: 10px;
 }
 
 .location {
     background-image: url('img-locations-background.jpg');
     width: 1200px;
-    height: 500px;
+    height: 700px;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .location .heading {
@@ -84,7 +96,7 @@ jumbotron .child {
     width: 300px;
     background-color: black;
     text-align: center;
-    margin-left: 40px;
+    margin: 15px 40px;
     opacity: 1;
 }
 
@@ -92,6 +104,7 @@ footer {
     text-align: center;
     width: 1200px;
     height: 200px;
+    margin: 0 auto;
 }
 
 #copyright {
