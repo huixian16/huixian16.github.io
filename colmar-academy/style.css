@@ -1,0 +1,236 @@
+:root {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 39%);
+}
+
+.container {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+nav {
+    height: 64px;
+    width: 100%;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 1%, 28%);
+    font-size: 1.3em;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+
+.logo {
+    margin-left: 24px;
+    font-size: 32px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+.logo .unbold {
+    color: hsl(0, 0%, 70%);
+}
+
+nav ul {
+    list-style: none;
+    margin: auto 24px;
+}
+
+nav ul li {
+    margin-left: 16px;
+    display: inline;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 1.7em;
+    line-height: normal;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: normal;
+}
+
+jumbotron {
+    background-color: hsla(0, 0%, 85%, 0.927);
+    width: 100%;
+    align-items: center;
+}
+
+jumbotron img {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+jumbotron section {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+jumbotron section div{
+    width: 80%;
+}
+
+.button {
+    width: 80%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: hsl(0, 0%, 30%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+.information {
+    justify-items: center;
+}
+
+
+.quote {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.quote img {
+    width: 100%;
+}
+
+.quote section {
+    width: 100%;
+}
+
+.quote section h2 {
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.quote section .author {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info {
+    width: 40%;
+    margin-top: 16px;
+}
+
+.info section {
+    display: flex;
+    align-items: center;
+}
+
+.info section img {
+    width: 35%;
+    height: auto;
+    margin: 16px;
+}
+
+.info section div {
+    width: 50%;
+    line-height: 8px;
+}
+
+.info section div a {
+    color: hsl(204, 96%, 54%);
+    text-decoration: none;
+}
+
+.courses {
+    background-color: hsl(0, 0%, 94%);
+    text-align: center;
+    padding: 32px 72px;
+}
+
+.courses h2 {
+    padding-bottom: 32px;
+}
+
+.courses .grid {
+    grid-template: 1fr 1fr / repeat(3, 1fr);
+    grid-gap: 32px 32px;
+    text-align: left;
+}
+
+.courses .grid div {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.courses .grid div img {
+    height: auto;
+    width: 100%;
+}
+
+.courses .grid div div {
+    padding: 16px 16px 24px 16px;
+    line-height: 8px;
+}
+
+.exhibit {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.exhibit section {
+    text-align: left;
+}
+
+.exhibit section .main {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.exhibit section .main video {
+    width: 100%;
+}
+
+.exhibit section .main h3 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.exhibit section .additional {
+    width: 40%;
+    grid-auto-rows: min-content;
+}
+
+.exhibit section .additional section {
+    display: flex;
+    align-items: center;
+}
+
+.exhibit section .additional img {
+    width: 35%;
+    height: auto;
+    margin: 16px;
+}
+
+footer.container {
+    justify-content: space-between;
+    font-size: 1em;
+    padding-top: 16px;
+    padding-left: 24px;
+    border-top: 1px solid hsl(0, 0%, 94%);
+}
+
+footer ul li {
+    list-style: none;
+    display: inline;
+    margin: 1rem;
+}
