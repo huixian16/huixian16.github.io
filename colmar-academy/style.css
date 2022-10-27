@@ -234,3 +234,15 @@ footer ul li {
     display: inline;
     margin: 1rem;
 }
+
+@media only screen and (min-width: 485px) {
+    nav.alt-nav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    nav.container {
+        display: none;
+    }
+}
