@@ -1,7 +1,8 @@
 :root {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: hsl(0, 0%, 100%);
-    color: hsl(0, 0%, 39%);
+    color: hsl(0, 0%, 34%);
+    width: 100%;
 }
 
 .container {
@@ -12,7 +13,7 @@
     display: grid;
 }
 
-nav {
+nav.big-screen {
     height: 64px;
     width: 100%;
     background-color: hsl(0, 0%, 100%);
@@ -49,6 +50,32 @@ nav ul li {
     display: inline;
 }
 
+nav.alt-nav {
+    height: 64px;
+    position: sticky;
+    top: 0px;
+}
+
+nav.alt-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav.alt-nav ul li {
+    margin: 0;
+}
+
+nav.alt-nav ul img {
+    height: 50px;
+    width: auto;
+}
+
+
 h1 {
     font-weight: bolder;
     font-size: 3em;
@@ -67,6 +94,7 @@ h3 {
 p {
     font-size: 1.2em;
     line-height: normal;
+    color: hsl(0, 0%, 42%);
 }
 
 jumbotron {
@@ -97,6 +125,10 @@ jumbotron section div{
     background-color: hsl(0, 0%, 30%);
     color: hsl(0, 0%, 100%);
     text-align: center;
+}
+
+.button p {
+    color: hsl(0, 0%, 100%);
 }
 
 .information {
@@ -235,26 +267,53 @@ footer ul li {
     margin: 1rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 587px) {
     nav.alt-nav {
         display: none;
     }
 }
 
-@media only screen and (max-width: 480px) {
-    nav.container {
+@media only screen and (max-width: 1054px) {
+    .logo p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 587px) {
+    nav.big-screen {
         display: none;
     }
 
-    nav.alt-nav {
-        height: 64px;
-    }
-
     jumbotron {
-        display: block;
+        flex-wrap: wrap;
     }
 
     jumbotron img {
         width: 100%;
+        margin: 0;
+    }
+
+    jumbotron section {
+        display: block;
+        padding: 32px 16px;
+        width: 100%;
+    }
+    
+    jumbotron section div{
+        width: 90%;
+    }
+    
+    .button {
+        width: 100%;
+        background-color: hsl(0, 0%, 61%);
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    h3 {
+        margin-top: 32px;
+        margin-bottom: 24px;
     }
 }
